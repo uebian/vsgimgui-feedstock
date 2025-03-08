@@ -13,7 +13,7 @@ source:
       - patches/0003-Find-imgui-and-implot-in-package-config-when-system-.patch
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage('vsgimgui', max_pin='x.x') }}
 
